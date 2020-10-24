@@ -1,0 +1,178 @@
+
+/************************************************************
+/*FONT DEFINITIONS
+/***********************************************************/
+/*Fira Code*/
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Fira Mono Regular"), url("../fonts/FiraMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: bold;
+  src: local("Fira http://127.0.0.1:5500/html-preview/html/lorem.htmlMono Bold"), url("../fonts/FiraMono-Bold.ttf") format("truetype");
+}
+
+/*Alegreya*/
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Alegreya Black"), url("../fonts/Alegreya-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Alegreya Black Italic"), url("../fonts/Alegreya-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Alegreya Extra Bold"), url("../fonts/Alegreya-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Alegreya Extra Bold Italic"), url("../fonts/Alegreya-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Alegreya Bold"), url("../fonts/Alegreya-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Alegreya Bold Italic"), url("../fonts/Alegreya-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Alegreya Medium"), url("../fonts/Alegreya-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Alegreya Medium Italic"), url("../fonts/Alegreya-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Alegreya Regular"), url("../fonts/Alegreya-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Alegreya Italic"), url("../fonts/Alegreya-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight:300;
+  src: local("Alegreya Light"), url("../fonts/Alegreya-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Alegreya Light Italic"), url("../fonts/Alegreya-LightItalic.ttf") format("truetype");
+}
+
+
+/*Alegreya SC*/
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Alegreya SC Black"), url("../fonts/AlegreyaSC-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Alegreya SC Black Italic"), url("../fonts/AlegreyaSC-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Alegreya SC Extra Bold"), url("../fonts/AlegreyaSC-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Alegreya SC Extra Bold Italic"), url("../fonts/AlegreyaSC-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Alegreya SC Bold"), url("../fonts/AlegreyaSC-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Alegreya SC Bold Italic"), url("../fonts/AlegreyaSC-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Alegreya SC Medium"), url("../fonts/AlegreyaSC-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Alegreya SC Medium Italic"), url("../fonts/AlegreyaSC-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Alegreya SC Regular"), url("../fonts/AlegreyaSC-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Alegreya SC Italic"), url("../fonts/AlegreyaSC-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight:300;
+  src: local("Alegreya SC Light"), url("../fonts/AlegreyaSC-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya SC";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Alegreya SC Light Italic"), url("../fonts/AlegreyaSC-LightItalic.ttf") format("truetype");
+}
+

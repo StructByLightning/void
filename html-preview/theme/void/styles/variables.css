@@ -1,0 +1,109 @@
+
+/************************************************************
+/*VARIABLE DEFINITIONS
+/***********************************************************/
+:root {
+  --font-1: "Alegreya";
+  --font-2: "Alegreya SC";
+
+  --spacing-1: 0.146rem;
+  --spacing-2: 0.236rem;
+  --spacing-3: 0.382rem;
+  --spacing-4: 0.618rem;
+  --spacing-5: 1rem;
+  --spacing-6: 1.618rem;
+  --spacing-7: 2.618rem;
+  --spacing-8: 4.235rem;
+  --spacing-9: 6.854rem;
+
+  --font-size-0: 0.625rem;
+  --font-size-1: 0.8125rem;
+  --font-size-2: 1rem;
+  --font-size-3: 1.25rem;
+  --font-size-4: 1.625rem;
+  --font-size-5: 2.0625rem;
+  --font-size-6: 2.625rem;
+  --font-size-7: 4.226rem;
+  --font-size-8: 6.804rem;
+  --font-size-9: 10.95rem;
+
+  --gray-0: #000000;
+  --gray-1: #111111;
+  --gray-2: #222222;
+  --gray-3: #333333;
+  --gray-4: #444444;
+  --gray-5: #555555;
+  --gray-6: #666666;
+  --gray-7: #777777;
+  --gray-8: #888888;
+  --gray-9: #999999;
+  --gray-10: #aaaaaa;
+  --gray-11: #bbbbbb;
+  --gray-12: #cccccc;
+  --gray-13: #dddddd;
+  --gray-14: #eeeeee;
+  --gray-15: #ffffff;
+
+  --purple-0: #000000;
+  --purple-1: #07081a;
+  --purple-2: #0f1034;
+  --purple-3: #17184e;
+  --purple-4: #1f2068;
+  --purple-5: #272882;
+  --purple-6: #2f309c;
+  --purple-7: #3738b6;
+  --purple-8: #4849c7;
+  --purple-9: #6263cf;
+  --purple-10: #7c7dd7;
+  --purple-11: #9697df;
+  --purple-12: #b0b1e7;
+  --purple-13: #cacbef;
+  --purple-14: #e4e5f7;
+  --purple-15: #fefefe;
+  --purple-0-rgb: 0, 0, 0;
+  --purple-1-rgb: 7, 8, 26;
+  --purple-2-rgb: 15, 16, 52;
+  --purple-3-rgb: 23, 24, 78;
+  --purple-4-rgb: 31, 32, 104;
+  --purple-5-rgb: 39, 40, 130;
+  --purple-6-rgb: 47, 48, 156;
+  --purple-7-rgb: 55, 56, 182;
+  --purple-8-rgb: 72, 73, 199;
+  --purple-9-rgb: 98, 99, 207;
+  --purple-10-rgb: 124, 125, 215;
+  --purple-11-rgb: 150, 151, 223;
+  --purple-12-rgb: 176, 177, 231;
+  --purple-13-rgb: 202, 203, 239;
+  --purple-14-rgb: 228, 229, 247;
+  --purple-15-rgb: 254, 254, 254;
+
+
+  --ani-1: 100ms;
+  --ani-2: 200ms;
+  --ani-3: 300ms;
+  --ani-4: 400ms;
+  --ani-5: 500ms;
+   
+
+
+  /*Typora builtins*/
+  --bg-color:  var(--gray-1); /*change background*/
+  --text-color: var(--gray-15); /*change text color*/
+  --md-char-color: var(--purple-11); /*change color of meta characetrs like `*` in markdown */
+  --meta-content-color: var(--purple-11); /*change color of meta contents like image text or link address in markdown */
+
+  --primary-color: red; /* color of primary buttons */
+  --primary-btn-border-color: #285e8e;
+  --primary-btn-text-color: #fff;
+
+  --window-border: 1px solid #eee; /*border for sidebar, etc*/
+
+  --active-file-bg-color: #eee; /*background color if list item in file tree or file list*/
+  --active-file-text-color: inherit;
+  --active-file-border-color: #777;
+
+  --side-bar-bg-color: var(--bg-color); /*change background of sidebar*/
+  --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
+  --item-hover-text-color: inherit;
+  --monospace: monospace; /*monospace font for codes, fences*/
+}

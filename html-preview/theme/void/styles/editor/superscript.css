@@ -1,0 +1,14 @@
+sup.md-footnote{
+  background: transparent;
+  color: var(--gray-15);
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-1);
+}
+
+sup.md-footnote::before{
+  content:"["
+}
+sup.md-footnote::after{
+  content:"]"
+}

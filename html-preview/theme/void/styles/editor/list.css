@@ -1,0 +1,73 @@
+#write ol 
+#write ul{
+  margin: var(--spacing-4) 0;
+}
+
+#write li p{
+  margin: var(--spacing-2) 0;
+}
+
+#write ol ul,
+#write ol ol,
+#write ul ul,
+#write ul ol{
+  margin: 0;
+}
+
+
+#write .task-list-item{
+  padding-left: 2em;
+}
+
+#write input[type='checkbox']{
+  -webkit-appearance:none;
+
+  border: 1px solid var(--gray-7);
+  background: var(--gray-2);
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0;
+  transition: border-color var(--ani-1) ease-in-out;
+}
+
+
+#write input[type='checkbox']::after{
+  content: "✓";
+  color: var(--gray-15);
+  position: absolute;
+  top: -.4rem;
+  left: -.1rem;
+  color: var(--purple-11);
+  font-weight: bold;
+  font-size: 1.75rem;
+  transition: opacity var(--ani-1) ease-in-out;
+  opacity: 0;
+}
+
+#write input[type='checkbox']:checked{
+  border-color: var(--purple-11);
+}
+
+#write input[type='checkbox']:checked::after{
+  opacity: 1;
+}
+
+#write ol,
+#write ul, 
+#write .task-list{
+  padding-left: 1.5em;
+}
+
+#write ul{
+  list-style: none;
+  margin-left: 0;
+  position: relative;
+}
+#write ul li:not(.task-list-item):before{
+  content: "⋄";
+  left: -1em;
+  position: absolute;
+  display: inline-block;
+}
+
+  

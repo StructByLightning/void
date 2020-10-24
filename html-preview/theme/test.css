@@ -1,0 +1,45 @@
+
+@import './void/styles/font-definitions.css';
+@import './void/styles/variables.css';
+
+@import './void/styles/editor/metablock.css';
+@import './void/styles/editor/header.css';
+@import './void/styles/editor/paragraph.css';
+@import './void/styles/editor/superscript.css';
+@import './void/styles/editor/link.css';
+@import './void/styles/editor/quote.css';
+@import './void/styles/editor/hr.css';
+@import './void/styles/editor/inline-styles.css';
+@import './void/styles/editor/table.css';
+@import './void/styles/editor/list.css';
+@import './void/styles/editor/code.css';
+@import './void/styles/editor/footnotes.css';
+ 
+
+@import './void/styles/ui/scrollbars.css';
+ 
+
+
+html{
+  font-family: var(--font-1);
+  font-size: 16px;  
+}
+
+#typora-sidebar{
+  background: var(--gray-2);
+}
+
+.show-footer footer{
+  border-top: 1px solid var(--gray-15);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer table{
+
+
+}
+
+#footer-word-count-info{
+  display: none;
+}

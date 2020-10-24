@@ -1,0 +1,18 @@
+table{
+  background: var(--gray-2);
+  margin: var(--spacing-4) 0;
+}
+
+table th{
+  background: var(--gray-5);
+}
+
+table tr:nth-child(2n){
+  background: var(--gray-3);
+}
+
+table td,
+table th{
+  padding: var(--spacing-2) var(--spacing-3);
+  border: 1px solid var(--gray-7);
+}

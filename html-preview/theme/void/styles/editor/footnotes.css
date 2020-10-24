@@ -1,0 +1,26 @@
+.footnotes{
+  padding: 0;
+  margin: var(--spacing-4) 0;
+}
+
+.md-def-name{
+  padding: 0;
+  width: fit-content;
+}
+
+.md-def-footnote .md-def-name:before{
+  content: "[";
+  position: initial;
+  color: var(--gray-15);
+
+}
+.md-def-footnote .md-def-name:after{
+  content: "]";
+  position: initial;
+  color: var(--gray-15);
+}
+
+.md-def-split{
+  width: 1ch;
+  min-width: 1ch;
+}
