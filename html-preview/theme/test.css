@@ -14,6 +14,7 @@
 @import './void/styles/editor/list.css';
 @import './void/styles/editor/code.css';
 @import './void/styles/editor/footnotes.css';
+@import './void/styles/editor/latex.css';
  
 
 @import './void/styles/ui/scrollbars.css';

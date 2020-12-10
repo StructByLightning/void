@@ -1,0 +1,43 @@
+.md-rawblock-panel
+{
+  background: var(--gray-2);
+  padding: var(--spacing-3);
+  border: 1px solid var(--gray-7); 
+} 
+
+.md-rawblock-container{
+  border: 1px solid transparent;
+  transition: all var(--ani-2) ease-in-out;
+}
+
+.md-rawblock:hover>.md-rawblock-container{
+  background: var(--gray-2);
+  border: 1px solid var(--gray-7);
+  transition: all var(--ani-2) ease-in-out;
+}
+
+.md-rawblock:hover>.md-rawblock-tooltip {
+  animation: none;
+  transition: all var(--ani-2) ease-in-out;
+  background: var(--gray-2);
+  opacity: 1;
+}
+
+.md-rawblock .md-rawblock-tooltip{
+  display: block;
+  transition: all var(--ani-2) ease-in-out;
+  opacity: 0;
+  background: var(--gray-2);
+  border-top: 1px solid var(--gray-7);
+  border-left: 1px solid var(--gray-7);
+  border-right: 1px solid var(--gray-7);
+}
+
+.md-rawblock-control:not(.md-rawblock-tooltip){
+  background: transparent;
+} 
+
+.md-rawblock-on-edit>.md-rawblock-tooltip{
+  background: var(--gray-2);
+  opacity: 1;
+}
